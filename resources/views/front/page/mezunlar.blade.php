@@ -9,7 +9,7 @@
             <div class="companies-list">
                 <div class="row">
                     @foreach($mezunlar as $mezun)
-                        <div class="col-lg-3 col-md-4 col-sm-6">
+                        <div id="deneme" class="col-lg-3 col-md-4  col-sm-6">
                             <div class="company_profile_info">
                                 <div class="company-up-info">
                                     <img src="{{asset($mezun->image)}}" width="10vh" height="10vh" alt="">
